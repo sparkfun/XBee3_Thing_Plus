@@ -18986,9 +18986,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="5.969" y1="5.5372" x2="5.969" y2="-8.89" width="0.127" layer="51"/>
 <wire x1="5.969" y1="-8.89" x2="-5.969" y2="-8.89" width="0.127" layer="51"/>
 <wire x1="-5.969" y1="-8.89" x2="-5.969" y2="5.5372" width="0.127" layer="51"/>
-<smd name="P$35" x="2.4003" y="7.8613" dx="0.889" dy="0.889" layer="1" cream="no"/>
-<smd name="P$37" x="2.4003" y="5.3721" dx="0.889" dy="0.889" layer="1" cream="no"/>
-<smd name="P$36" x="2.4003" y="6.6167" dx="0.889" dy="0.889" layer="1" cream="no"/>
 <rectangle x1="-7.239" y1="5.5118" x2="-6.010275" y2="6.182359375" layer="31"/>
 <rectangle x1="-7.239" y1="4.26211875" x2="-6.010275" y2="4.93268125" layer="31"/>
 <rectangle x1="-7.239" y1="3.012440625" x2="-6.010275" y2="3.683" layer="31"/>
@@ -19023,141 +19020,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="1.53161875" y1="-10.0504625" x2="2.20218125" y2="-8.8217375" layer="31"/>
 <rectangle x1="2.7813" y1="-10.0504625" x2="3.451859375" y2="-8.8217375" layer="31"/>
 <rectangle x1="4.03098125" y1="-10.0504625" x2="4.701540625" y2="-8.8217375" layer="31"/>
-<rectangle x1="2.0447" y1="7.5057" x2="2.7559" y2="8.2169" layer="31"/>
-<rectangle x1="2.0447" y1="6.2611" x2="2.7559" y2="6.9723" layer="31"/>
-<rectangle x1="2.0447" y1="5.0165" x2="2.7559" y2="5.7277" layer="31"/>
-</package>
-<package name="TRACE_ANTENNA_2.4GHZ_25.7MM">
-<description>&lt;h3&gt;2.4GHz Inverted F PCB Trace Antenna&lt;/h3&gt;
-&lt;p&gt;PCB trace antenna with a 25.7 x 7.5 mm footprint.&lt;/p&gt;
-&lt;p&gt;Based on layout from &lt;a href="http://www.ti.com/lit/an/swru120b/swru120b.pdf"&gt;TI design note DN0007&lt;/a&gt;.&lt;/p&gt;</description>
-<polygon width="0.002540625" layer="1">
-<vertex x="-0.23" y="0"/>
-<vertex x="-0.23" y="2.28"/>
-<vertex x="-0.73" y="2.69"/>
-<vertex x="-3.88" y="2.69"/>
-<vertex x="-3.88" y="3.9"/>
-<vertex x="-2.88" y="3.9"/>
-<vertex x="-2.88" y="4.7"/>
-<vertex x="-8.68" y="4.7"/>
-<vertex x="-8.68" y="2.03"/>
-<vertex x="-0.68" y="2.03"/>
-<vertex x="-0.68" y="0"/>
-<vertex x="-1.68" y="0"/>
-<vertex x="-1.68" y="0.7"/>
-<vertex x="-2.88" y="0.7"/>
-<vertex x="-2.88" y="0"/>
-<vertex x="-3.88" y="0"/>
-<vertex x="-3.88" y="0.74"/>
-<vertex x="-10.86" y="0.74"/>
-<vertex x="-10.86" y="6.91"/>
-<vertex x="14.72" y="6.91"/>
-<vertex x="14.72" y="5.7"/>
-<vertex x="-1.68" y="5.7"/>
-<vertex x="-1.68" y="3.9"/>
-<vertex x="-0.68" y="3.9"/>
-<vertex x="-0.68" y="3.29"/>
-<vertex x="0.23" y="2.53"/>
-<vertex x="0.23" y="0"/>
-</polygon>
-<smd name="ANT" x="0" y="0.23" dx="0.46" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND" x="-1.18" y="0.23" dx="1" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND2" x="-3.38" y="0.23" dx="1" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
-<wire x1="-0.68" y1="0" x2="-11" y2="0" width="0.1" layer="51"/>
-<wire x1="-0.68" y1="-2" x2="-0.68" y2="0" width="0.1" layer="51"/>
-<wire x1="0.68" y1="0" x2="0.68" y2="-2" width="0.1" layer="51"/>
-<wire x1="0.68" y1="0" x2="14.75" y2="0" width="0.1" layer="51"/>
-<text x="-11.049" y="-1.397" size="0.889" layer="51" font="vector">Ground Plane</text>
-<text x="2.921" y="-1.397" size="0.889" layer="51" font="vector">Ground Plane</text>
-<wire x1="-11" y1="7.52" x2="14.75" y2="7.52" width="0.1" layer="51"/>
-<text x="-4.449" y="7.703" size="0.889" layer="51" font="vector">Board edge</text>
-<text x="3.81" y="4.445" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="TRACE_ANTENNA_2.4GHZ_15.2MM">
-<description>&lt;h3&gt;2.4GHz Meander PCB Trace Antenna&lt;/h3&gt;
-&lt;p&gt;PCB trace antenna with a 15.2 x 5.7mm footprint.&lt;/p&gt;
-&lt;p&gt;Based on layout from &lt;a href="http://www.ti.com/lit/an/swra117d/swra117d.pdf"&gt;TI app note AN043&lt;/a&gt;.&lt;/p&gt;</description>
-<polygon width="0.002540625" layer="1">
-<vertex x="-0.25" y="-0.5"/>
-<vertex x="-0.25" y="4.4"/>
-<vertex x="-1.65" y="4.4"/>
-<vertex x="-1.65" y="-0.5"/>
-<vertex x="-2.55" y="-0.5"/>
-<vertex x="-2.55" y="4.9"/>
-<vertex x="2.45" y="4.9"/>
-<vertex x="2.45" y="2.26"/>
-<vertex x="4.45" y="2.26"/>
-<vertex x="4.45" y="4.9"/>
-<vertex x="7.15" y="4.9"/>
-<vertex x="7.15" y="2.26"/>
-<vertex x="9.15" y="2.26"/>
-<vertex x="9.15" y="4.9"/>
-<vertex x="11.85" y="4.9"/>
-<vertex x="11.85" y="0.46"/>
-<vertex x="11.35" y="0.46"/>
-<vertex x="11.35" y="4.4"/>
-<vertex x="9.65" y="4.4"/>
-<vertex x="9.65" y="1.76"/>
-<vertex x="6.65" y="1.76"/>
-<vertex x="6.65" y="4.4"/>
-<vertex x="4.95" y="4.4"/>
-<vertex x="4.95" y="1.76"/>
-<vertex x="1.95" y="1.76"/>
-<vertex x="1.95" y="4.4"/>
-<vertex x="0.25" y="4.4"/>
-<vertex x="0.25" y="-0.5"/>
-</polygon>
-<wire x1="-3" y1="0" x2="12" y2="0" width="0.05" layer="51"/>
-<smd name="GND" x="-2.1" y="-0.25" dx="0.9" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="ANT" x="0" y="-0.25" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
-<wire x1="-3" y1="5.2" x2="12" y2="5.2" width="0.05" layer="51"/>
-<text x="1" y="-0.8" size="0.64" layer="51" font="vector">Ground Plane</text>
-<text x="1.5" y="5.5" size="0.64" layer="51" font="vector">Board Edge</text>
-<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="TRACE_ANTENNA_2.4GHZ_15.2MM_FLIPPED">
-<description>&lt;h3&gt;2.4GHz Meander PCB Trace Antenna&lt;/h3&gt;
-&lt;p&gt;PCB trace antenna with a 15.2 x 5.7mm footprint.&lt;/p&gt;
-&lt;p&gt;Based on layout from &lt;a href="http://www.ti.com/lit/an/swra117d/swra117d.pdf"&gt;TI app note AN043&lt;/a&gt;.&lt;/p&gt;</description>
-<text x="0" y="1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.002540625" layer="1">
-<vertex x="0.25" y="-0.5"/>
-<vertex x="0.25" y="4.4"/>
-<vertex x="1.65" y="4.4"/>
-<vertex x="1.65" y="-0.5"/>
-<vertex x="2.55" y="-0.5"/>
-<vertex x="2.55" y="4.9"/>
-<vertex x="-2.45" y="4.9"/>
-<vertex x="-2.45" y="2.26"/>
-<vertex x="-4.45" y="2.26"/>
-<vertex x="-4.45" y="4.9"/>
-<vertex x="-7.15" y="4.9"/>
-<vertex x="-7.15" y="2.26"/>
-<vertex x="-9.15" y="2.26"/>
-<vertex x="-9.15" y="4.9"/>
-<vertex x="-11.85" y="4.9"/>
-<vertex x="-11.85" y="0.46"/>
-<vertex x="-11.35" y="0.46"/>
-<vertex x="-11.35" y="4.4"/>
-<vertex x="-9.65" y="4.4"/>
-<vertex x="-9.65" y="1.76"/>
-<vertex x="-6.65" y="1.76"/>
-<vertex x="-6.65" y="4.4"/>
-<vertex x="-4.95" y="4.4"/>
-<vertex x="-4.95" y="1.76"/>
-<vertex x="-1.95" y="1.76"/>
-<vertex x="-1.95" y="4.4"/>
-<vertex x="-0.25" y="4.4"/>
-<vertex x="-0.25" y="-0.5"/>
-</polygon>
-<wire x1="-11.89" y1="0" x2="3.11" y2="0" width="0.05" layer="51"/>
-<smd name="GND" x="2.1" y="-0.25" dx="0.9" dy="0.5" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
-<smd name="ANT" x="0" y="-0.25" dx="0.5" dy="0.5" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
-<wire x1="-11.89" y1="5.2" x2="3.11" y2="5.2" width="0.05" layer="51"/>
-<text x="-7.89" y="-0.8" size="0.64" layer="51" font="vector">Ground Plane</text>
-<text x="-7.39" y="5.5" size="0.64" layer="51" font="vector">Board Edge</text>
+<rectangle x1="1.3843" y1="4.3561" x2="3.4163" y2="8.8773" layer="41"/>
+<text x="2.667" y="4.572" size="0.4064" layer="41" rot="R90">RF Test Points</text>
 </package>
 </packages>
 <symbols>
@@ -19193,20 +19057,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-17.78" y="21.336" size="1.27" layer="95">&gt;NAME</text>
 <text x="-17.78" y="-22.86" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
-<symbol name="ANTENNA-GROUNDED">
-<description>&lt;h3&gt;Antenna (with ground termination)&lt;/h3&gt;</description>
-<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<circle x="0" y="-5.08" radius="1.1359" width="0.254" layer="94"/>
-<text x="3.048" y="-5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="3.048" y="-7.366" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="GND" x="2.54" y="-10.16" visible="off" length="short" rot="R90"/>
-<pin name="SIGNAL" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="XBEE3" prefix="U">
@@ -19237,8 +19087,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="D7/!CTS" pad="P$24"/>
 <connect gate="G$1" pin="D8/!DTR!/SLP_RQ" pad="P$9"/>
 <connect gate="G$1" pin="D9/ON/!SLP" pad="P$25"/>
-<connect gate="G$1" pin="GND" pad="P$1 P$10 P$12 P$21 P$32 P$34 P$35 P$37"/>
-<connect gate="G$1" pin="RF" pad="P$36"/>
+<connect gate="G$1" pin="GND" pad="P$1 P$10 P$12 P$21 P$32 P$34"/>
+<connect gate="G$1" pin="RF" pad="P$33"/>
 <connect gate="G$1" pin="VCC" pad="P$2"/>
 </connects>
 <technologies>
@@ -19246,52 +19096,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="WRL-14444"/>
 <attribute name="VALUE" value="XBEE3_Micro"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ANTENNA-GROUNDED" prefix="E">
-<description>&lt;h3&gt;Antenna w/ Ground Connection&lt;/h3&gt;
-&lt;p&gt;2.4GHz antennae with signal and ground terminals.&lt;/p&gt;
-&lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;TRACE_ANTENNA_2.4GHZ_15.2MM&lt;/b&gt; - Meander Trace antenna
-&lt;ul&gt;&lt;li&gt;15.2 x 5.7mm footprint&lt;/li&gt;
-&lt;li&gt;Based on layout from &lt;a href="http://www.ti.com/lit/an/swra117d/swra117d.pdf"&gt;TI app note AN043&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;TRACE_ANTENNA_2.4GHZ_25.7MM&lt;/b&gt; - Inverted F trace antenna
-&lt;ul&gt;&lt;li&gt;25.7 x 7.5 mm footprint.&lt;/li&gt;
-&lt;li&gt;Based on layout from &lt;a href="http://www.ti.com/lit/an/swru120b/swru120b.pdf"&gt;TI design note DN0007&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="ANTENNA-GROUNDED" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="TRACE-25.7MM" package="TRACE_ANTENNA_2.4GHZ_25.7MM">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND GND2"/>
-<connect gate="G$1" pin="SIGNAL" pad="ANT"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TRACE-15.2MM" package="TRACE_ANTENNA_2.4GHZ_15.2MM">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SIGNAL" pad="ANT"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TRACE-15.2M_FLIPPED" package="TRACE_ANTENNA_2.4GHZ_15.2MM_FLIPPED">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SIGNAL" pad="ANT"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22256,106 +22060,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Jumpers">
-<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
-In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMT-JUMPER_2_NC_TRACE_NO-SILK">
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1905" y="0.127"/>
-<vertex x="0.1905" y="0.127"/>
-<vertex x="0.1905" y="-0.127"/>
-<vertex x="-0.1905" y="-0.127"/>
-</polygon>
-<rectangle x1="-0.2032" y1="-0.127" x2="0.2032" y2="0.127" layer="1"/>
-</package>
-<package name="SMT-JUMPER_2_NC_TRACE_SILK">
-<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1905" y="0.127"/>
-<vertex x="0.1905" y="0.127"/>
-<vertex x="0.1905" y="-0.127"/>
-<vertex x="-0.1905" y="-0.127"/>
-</polygon>
-<rectangle x1="-0.2032" y1="-0.127" x2="0.2032" y2="0.127" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SMT-JUMPER_2_NC_TRACE">
-<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
-<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JUMPER-SMT_2_NC_TRACE" prefix="JP">
-<description>&lt;h3&gt;Normally closed trace jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has a trace between two pads so it's normally closed (NC). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
-&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
-&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Reapply solder to reclose the connection.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="SMT-JUMPER_2_NC_TRACE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_NO-SILK" package="SMT-JUMPER_2_NC_TRACE_NO-SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="SMT-JUMPER_2_NC_TRACE_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Resistors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -24380,7 +24084,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_SM_SQ_NOSILK"/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" value=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
 <part name="U4" library="SparkFun-IC-Comms" deviceset="CP2102N" device=""/>
@@ -24445,12 +24148,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
-<part name="E1" library="SparkFun-RF" deviceset="ANTENNA-GROUNDED" device="TRACE-15.2M_FLIPPED"/>
-<part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$63" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM" value="QWIIC_LOGO_5MM"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S" value="OSHW-LOGOS"/>
+<part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24519,10 +24222,6 @@ R_PROG=2k : I_CHG=500mA</text>
 </instance>
 <instance part="H3" gate="G$1" x="241.3" y="33.02" smashed="yes"/>
 <instance part="H4" gate="G$1" x="241.3" y="30.48" smashed="yes"/>
-<instance part="JP1" gate="G$1" x="167.64" y="83.82" smashed="yes">
-<attribute name="NAME" x="165.1" y="86.36" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="165.1" y="81.28" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
 <instance part="GND26" gate="1" x="15.24" y="58.42" smashed="yes">
 <attribute name="VALUE" x="12.7" y="55.88" size="1.778" layer="96"/>
 </instance>
@@ -24728,18 +24427,14 @@ R_PROG=2k : I_CHG=500mA</text>
 <instance part="FD2" gate="G$1" x="236.22" y="33.02" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="233.68" y="33.02" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="233.68" y="30.48" smashed="yes"/>
-<instance part="E1" gate="G$1" x="175.26" y="96.52" smashed="yes">
-<attribute name="NAME" x="178.308" y="91.44" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="GND18" gate="1" x="177.8" y="78.74" smashed="yes">
-<attribute name="VALUE" x="177.8" y="78.486" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="U$63" gate="G$1" x="137.16" y="5.08" smashed="yes"/>
 <instance part="J4" gate="G$1" x="167.64" y="160.02" smashed="yes" rot="MR90">
 <attribute name="NAME" x="173.482" y="157.48" size="1.778" layer="95" rot="MR90"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="190.5" y="35.56" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="113.538" y="11.176" smashed="yes"/>
+<instance part="H1" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
+<instance part="H2" gate="G$1" x="243.84" y="33.02" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -24845,13 +24540,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <pinref part="J2" gate="G$1" pin="7"/>
 <wire x1="228.6" y1="154.94" x2="233.68" y2="154.94" width="0.1524" layer="91"/>
 <label x="233.68" y="154.94" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
-</net>
-<net name="RF" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="RF"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D10" class="0">
@@ -25124,11 +24812,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="E1" gate="G$1" pin="GND"/>
-<wire x1="177.8" y1="86.36" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="S2" gate="G$1" pin="4"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="73.66" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
@@ -25211,14 +24894,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <wire x1="10.16" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="25.4" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="86.36" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="E1" gate="G$1" pin="SIGNAL"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
