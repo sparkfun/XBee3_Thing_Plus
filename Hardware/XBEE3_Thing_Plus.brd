@@ -9991,7 +9991,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U1" library="SparkFun-RF" package="XBEE3" value="XBEE3_Micro" x="11.43" y="44.069" smashed="yes">
 <attribute name="NAME" x="8.89" y="54.229" size="1.27" layer="25"/>
-<attribute name="PROD_ID" value="WRL-14444" x="33.02" y="30.099" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="WRL-14444/WRL-14467" x="33.02" y="30.099" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.62" y="31.369" size="1.27" layer="25"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X12_SM_SQ_NOSILK" value="" x="1.27" y="24.13" smashed="yes" rot="R90">

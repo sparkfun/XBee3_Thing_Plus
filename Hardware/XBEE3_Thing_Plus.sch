@@ -19068,7 +19068,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="WRL-14444"/>
+<attribute name="PROD_ID" value="WRL-14444/WRL-14467"/>
 <attribute name="VALUE" value="XBEE3_Micro"/>
 </technology>
 </technologies>
