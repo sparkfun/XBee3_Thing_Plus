@@ -24222,6 +24222,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="182.88" y1="111.76" x2="182.88" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="182.88" y1="88.9" x2="248.92" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
 <text x="2.54" y="48.26" size="2.54" layer="94" font="vector">LEDs and Buttons</text>
+<text x="132.08" y="96.52" size="2.54" layer="97" font="vector">VCC: 2.1-3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
