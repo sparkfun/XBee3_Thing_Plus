@@ -24207,7 +24207,7 @@ I_CHG = 1000 / R_PROG
 R_PROG=2k : I_CHG=500mA</text>
 <text x="93.98" y="180.34" size="2.54" layer="94" font="vector">Lithium-Polymer Battery Charger (1-cell)</text>
 <text x="166.624" y="11.43" size="2.54" layer="94" font="vector">Alex Wende</text>
-<text x="238.76" y="7.112" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.112" size="2.54" layer="94" font="vector">v10</text>
 <wire x1="91.44" y1="185.42" x2="91.44" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="91.44" y1="111.76" x2="0" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <text x="2.54" y="106.68" size="2.54" layer="94" font="vector">USB (CP2102) Bridge</text>
@@ -24585,7 +24585,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <label x="208.28" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SDA" class="0">
+<net name="D11" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="D11/PWM1/SDA"/>
 <wire x1="162.56" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
@@ -24602,7 +24602,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <label x="208.28" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SCL" class="0">
+<net name="D1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="D1/A1/SCL"/>
 <wire x1="162.56" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
@@ -24982,7 +24982,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="35.56" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RX" class="0">
+<net name="D13" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="RXD"/>
 <wire x1="91.44" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
@@ -24999,7 +24999,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <label x="233.68" y="134.62" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
-<net name="TX" class="0">
+<net name="D14" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="TXD"/>
 <wire x1="91.44" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
@@ -25154,6 +25154,9 @@ R_PROG=2k : I_CHG=500mA</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,66.04,129.54,U3,BP,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
