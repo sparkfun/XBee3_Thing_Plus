@@ -1,9 +1,13 @@
 SparkFun XBee3 Thing Plus
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkFun XBee3 Thing Plus (u.FL)](URL for picture of part)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+![SparkFun XBee3 Thing Plus (PCB Antenna)](URL for picture of part)
+
+[* SparkFun XBee3 Thing Plus (u.FL)(15435)](https://www.sparkfun.com/products/15435)
+
+[* SparkFun XBee3 Thing Plus (PCB Antenna)(15454)](https://www.sparkfun.com/products/15454)
 
 <Basic description of the part.>
 
