@@ -1,9 +1,9 @@
 SparkFun XBee3 Thing Plus
 ========================================
 
-![SparkFun XBee3 Thing Plus (u.FL)](URL for picture of part)
+![SparkFun XBee3 Thing Plus (u.FL)](https://cdn.sparkfun.com/assets/parts/1/3/9/9/4/15435-SparkFun_Thing_Plus_-_XBee3_Micro__u.FL_-01.jpg)
 
-![SparkFun XBee3 Thing Plus (PCB Antenna)](URL for picture of part)
+![SparkFun XBee3 Thing Plus (PCB Antenna)](https://cdn.sparkfun.com/assets/parts/1/4/0/3/7/15454-SparkFun_Thing_Plus_-_XBee3_Micro__Chip_Antenna_-01b.jpg)
 
 [* SparkFun XBee3 Thing Plus (u.FL)(15435)](https://www.sparkfun.com/products/15435)
 
@@ -14,18 +14,11 @@ SparkFun XBee3 Thing Plus
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/xbee3-thing-plus-hookup-guide)** - Basic hookup guide for the XBee Thing Plus.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
