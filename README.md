@@ -3,9 +3,9 @@ SparkFun XBee3 Thing Plus
 
 ![SparkFun XBee3 Thing Plus (u.FL)](https://cdn.sparkfun.com/assets/parts/1/3/9/9/4/15435-SparkFun_Thing_Plus_-_XBee3_Micro__u.FL_-01.jpg)
 
-![SparkFun XBee3 Thing Plus (PCB Antenna)](https://cdn.sparkfun.com/assets/parts/1/4/0/3/7/15454-SparkFun_Thing_Plus_-_XBee3_Micro__Chip_Antenna_-01b.jpg)
-
 [* SparkFun XBee3 Thing Plus (u.FL)(15435)](https://www.sparkfun.com/products/15435)
+
+![SparkFun XBee3 Thing Plus (PCB Antenna)](https://cdn.sparkfun.com/assets/parts/1/4/0/3/7/15454-SparkFun_Thing_Plus_-_XBee3_Micro__Chip_Antenna_-01b.jpg)
 
 [* SparkFun XBee3 Thing Plus (PCB Antenna)(15454)](https://www.sparkfun.com/products/15454)
 
