@@ -16,7 +16,7 @@ The XBee3 Thing Plus is an ultra capable and easy way for getting into wireless 
 
 The new XBee3 Micro Module provides the classic all-but plug and play 802.15.4 2.4GHz wireless connection (Zigbee 3.0 Protocol) that makes it so desirable, but with a new addition of being programmable with MicroPython (32KB of memory available for it). RF data rates up to 250 Kbps and 200ft indoor ranges and up to 4000ft line-of-sight outdoor range. Communicating with/Configuring the module happens via an AT Command set or the Digi API, X-CTU, both locally or over-the-air. There's even a mobile version of X-CTU now; Digi XBee® Mobile.
 
-This variation features a U.FL antenna connector for longer range communications. Check out the related products for compatible antennas.
+This variation features a U.FL antenna connector for longer range communications.
 
 Repository Contents
 -------------------
