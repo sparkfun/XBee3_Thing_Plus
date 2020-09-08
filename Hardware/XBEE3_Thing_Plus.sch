@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -24125,7 +24125,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
-<part name="U4" library="SparkFun-IC-Comms" deviceset="CP2102N" device=""/>
+<part name="U4" library="SparkFun-IC-Comms" deviceset="CP2102N" device="" value="CP210X"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -24210,7 +24210,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <text x="238.76" y="7.112" size="2.54" layer="94" font="vector">v10</text>
 <wire x1="91.44" y1="185.42" x2="91.44" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="91.44" y1="111.76" x2="0" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
-<text x="2.54" y="106.68" size="2.54" layer="94" font="vector">USB (CP2102) Bridge</text>
+<text x="2.54" y="106.68" size="2.54" layer="94" font="vector">USB (CP2104/2N) Bridge</text>
 <text x="187.96" y="180.34" size="2.54" layer="94" font="vector">Connectors</text>
 <text x="104.14" y="106.68" size="2.54" layer="94" font="vector">XBee3 Module</text>
 <wire x1="91.44" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
